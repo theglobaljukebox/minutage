@@ -1,0 +1,26 @@
+# folders
+env/
+no_git/
+
+# History files
+.Rhistory
+.Rapp.history
+.DS_Store
+.history
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# secrets
+credentials.json
+token.pickle
+database_notes
+
+# logs
+cldf.log
