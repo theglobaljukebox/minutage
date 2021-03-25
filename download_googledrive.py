@@ -39,7 +39,7 @@ def read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE):
     return values, header_values
 
 def main():
-    variable_metadata = pd.read_csv("etc/variables.csv")
+    # variable_metadata = pd.read_csv("etc/variables.csv")
 
     # Data sheet
     print("Downloading data into data.csv")
@@ -48,21 +48,21 @@ def main():
     HEADER_RANGE = "'Minutage Codings'!A1:AP1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     data_df = pd.DataFrame(data, columns = header[0])
-    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "data") & (variable_metadata["visibility"] == "public")]
-    data_df = data_df.filter(items = keep_columns["name"])
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "data") & (variable_metadata["visibility"] == "public")]
+    # data_df = data_df.filter(items = keep_columns["name"])
     data_df.to_csv('raw/data.csv', index=False)
     print("successful")
 
     # Song metadata sheet
-    print("Downloading song metadata into songs.csv")
-    SPREADSHEET_ID = '1dsaXyleZH5DRSJtnig31W_nusedNfU4QU1KkY_ABhww'
-    RANGE_NAME = "'All Cantometrics Songs'!A2:AG6044"
-    HEADER_RANGE = "'All Cantometrics Songs'!A1:AG1"
+    print("Downloading phrasing and breathing metadata into phrasing.csv")
+    SPREADSHEET_ID = '1WWhRR4ue0hdcr8ZZMSnj2LaSLHtDKi3R9YChR40Xi3M'
+    RANGE_NAME = "'All Cantometrics Songs'!A2:AF688"
+    HEADER_RANGE = "'All Cantometrics Songs'!A1:AF1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     songs_df = pd.DataFrame(data, columns = header[0])
-    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
-    songs_df = songs_df.filter(items = keep_columns["name"])
-    songs_df.to_csv('raw/songs.csv', index=False)
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
+    # songs_df = songs_df.filter(items = keep_columns["name"])
+    songs_df.to_csv('raw/phrasing.csv', index=False)
     print("successful")
 
     # Society metadata sheet
@@ -72,8 +72,9 @@ def main():
     HEADER_RANGE = "'All Cultures'!A1:BA1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     society_df = pd.DataFrame(data, columns = header[0])
-    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
-    society_df = society_df.filter(items = keep_columns["name"])
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
+    # society_df = society_df.filter(items = keep_columns["name"])
+    society_df = society_df[society_df.M_cid != ""]
     society_df.to_csv('raw/societies.csv', index=False)
     print("successful")
 
