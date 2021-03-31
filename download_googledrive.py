@@ -41,11 +41,11 @@ def read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE):
 def main():
     # variable_metadata = pd.read_csv("etc/variables.csv")
 
-    # Data sheet
+    # Data sheet
     print("Downloading data into data.csv")
-    SPREADSHEET_ID = '15v6tmhVXha1wUiy-6j1ZsNEgj-Dai73U7PJ8NWKuwJk'
-    RANGE_NAME = "'Parlametrics Codings'!A2:BQ189"
-    HEADER_RANGE = "'Parlametrics Codings'!A1:BQ1"
+    SPREADSHEET_ID = '16cYnGsnSgHPs5iqsa76YRDXVci85mlbuJ06uhSh4_Tk'
+    RANGE_NAME = "'Minutage Codings'!A2:AP"
+    HEADER_RANGE = "'Minutage Codings'!A1:AP1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     data_df = pd.DataFrame(data, columns = header[0])
     # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "data") & (variable_metadata["visibility"] == "public")]
@@ -54,15 +54,15 @@ def main():
     print("successful")
 
     # Song metadata sheet
-    print("Downloading conversation metadata into conversation.csv")
-    SPREADSHEET_ID = '1Ojbj-2SfbxTYM_Da-uxdpoR9aZEqwfVt9dWouFeRa80'
-    RANGE_NAME = "'Metadata (in progress)'!A3:BA225"
-    HEADER_RANGE = "'Metadata (in progress)'!A2:BA2"
+    print("Downloading phrasing and breathing metadata into phrasing.csv")
+    SPREADSHEET_ID = '1WWhRR4ue0hdcr8ZZMSnj2LaSLHtDKi3R9YChR40Xi3M'
+    RANGE_NAME = "'All Cantometrics Songs'!A2:AF688"
+    HEADER_RANGE = "'All Cantometrics Songs'!A1:AF1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     songs_df = pd.DataFrame(data, columns = header[0])
     # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
     # songs_df = songs_df.filter(items = keep_columns["name"])
-    songs_df.to_csv('raw/conversation.csv', index=False)
+    songs_df.to_csv('raw/phrasing.csv', index=False)
     print("successful")
 
     # Society metadata sheet
@@ -74,7 +74,7 @@ def main():
     society_df = pd.DataFrame(data, columns = header[0])
     # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
     # society_df = society_df.filter(items = keep_columns["name"])
-    society_df = society_df[society_df.P_cid != ""]
+    society_df = society_df[society_df.M_cid != ""]
     society_df.to_csv('raw/societies.csv', index=False)
     print("successful")
 
