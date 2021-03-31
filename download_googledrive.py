@@ -74,6 +74,7 @@ def main():
     society_df = pd.DataFrame(data, columns = header[0])
     # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
     # society_df = society_df.filter(items = keep_columns["name"])
+    society_df = society_df[society_df.P_cid != ""]
     society_df.to_csv('raw/societies.csv', index=False)
     print("successful")
 
