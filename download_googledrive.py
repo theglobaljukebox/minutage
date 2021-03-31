@@ -39,30 +39,30 @@ def read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE):
     return values, header_values
 
 def main():
-    variable_metadata = pd.read_csv("etc/variables.csv")
+    # variable_metadata = pd.read_csv("etc/variables.csv")
 
     # Data sheet
     print("Downloading data into data.csv")
-    SPREADSHEET_ID = '16cYnGsnSgHPs5iqsa76YRDXVci85mlbuJ06uhSh4_Tk'
-    RANGE_NAME = "'Minutage Codings'!A2:AP"
-    HEADER_RANGE = "'Minutage Codings'!A1:AP1"
+    SPREADSHEET_ID = '15v6tmhVXha1wUiy-6j1ZsNEgj-Dai73U7PJ8NWKuwJk'
+    RANGE_NAME = "'Parlametrics Codings'!A2:BQ189"
+    HEADER_RANGE = "'Parlametrics Codings'!A1:BQ1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     data_df = pd.DataFrame(data, columns = header[0])
-    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "data") & (variable_metadata["visibility"] == "public")]
-    data_df = data_df.filter(items = keep_columns["name"])
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "data") & (variable_metadata["visibility"] == "public")]
+    # data_df = data_df.filter(items = keep_columns["name"])
     data_df.to_csv('raw/data.csv', index=False)
     print("successful")
 
     # Song metadata sheet
-    print("Downloading song metadata into songs.csv")
-    SPREADSHEET_ID = '1dsaXyleZH5DRSJtnig31W_nusedNfU4QU1KkY_ABhww'
-    RANGE_NAME = "'All Cantometrics Songs'!A2:AG6044"
-    HEADER_RANGE = "'All Cantometrics Songs'!A1:AG1"
+    print("Downloading conversation metadata into conversation.csv")
+    SPREADSHEET_ID = '1Ojbj-2SfbxTYM_Da-uxdpoR9aZEqwfVt9dWouFeRa80'
+    RANGE_NAME = "'Metadata (in progress)'!A3:BA225"
+    HEADER_RANGE = "'Metadata (in progress)'!A2:BA2"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     songs_df = pd.DataFrame(data, columns = header[0])
-    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
-    songs_df = songs_df.filter(items = keep_columns["name"])
-    songs_df.to_csv('raw/songs.csv', index=False)
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "songs") & (variable_metadata["visibility"] == "public")]
+    # songs_df = songs_df.filter(items = keep_columns["name"])
+    songs_df.to_csv('raw/conversation.csv', index=False)
     print("successful")
 
     # Society metadata sheet
@@ -72,8 +72,8 @@ def main():
     HEADER_RANGE = "'All Cultures'!A1:BA1"
     data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
     society_df = pd.DataFrame(data, columns = header[0])
-    keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
-    society_df = society_df.filter(items = keep_columns["name"])
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
+    # society_df = society_df.filter(items = keep_columns["name"])
     society_df.to_csv('raw/societies.csv', index=False)
     print("successful")
 
