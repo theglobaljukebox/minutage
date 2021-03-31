@@ -1,5 +1,7 @@
 # Minutage Data
 
+The Minutage dataset contains information on the phrasing and breath patterns in a global sample of songs. 
+
 This repository is for pulling, formatting, validating and cleaning the Minutage dataset.
 
 Data is presented in three data tables within raw/
