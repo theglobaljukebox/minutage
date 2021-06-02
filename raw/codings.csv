@@ -1,0 +1,319 @@
+SORT,VarID,VarTitle,VarDefinition,VarCategory,VarType,Source,UserNotes,VarID_Code,Count,Code,CodeDescription,DoubleCoding_notes,ShortName
+1,V1,Gender,The gender makeup of the singing group.,Function,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,1_NA,4,NA,Missing data,,Missing data
+2,,,,,,,,1_1,397,1,Singers are men,,Men
+3,,,,,,,,1_2,178,2,Singers are women,,Women
+4,,,,,,,,1_3,0,3,"Singers are non-binary, third gender, or other gender indentity",,Non-binary/other
+5,,,,,,,,1_4,108,4,Mixed gender singing group,,Mixed group
+6,V2A,Function 1,Primary function of the song in the context of its performance in the culture.,Function,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,2A_NA,390,NA,Missing data,,Missing data
+7,,,,,,,,2A_1,17,1,Ritual,,Ritl
+8,,,,,,,,2A_2,0,2,Curing,,Cure
+9,,,,,,,,2A_3,3,3,Initiation rites,,Ritin
+10,,,,,,,,2A_4,2,4,Courtship,,Court
+11,,,,,,,,2A_5,3,5,Marriage ceremonies,,Marry
+12,,,,,,,,2A_6,5,6,"Death, e.g. laments.",,Death
+13,,,,,,,,2A_7,10,7,"General work. Note that hunting, fishing, agricultural, gathering, pastoral are specifically defined elsewhere and should not be coded here.",,Work genl
+14,,,,,,,,2A_8,0,8,"Signalling, e.g. hollers.",,Signl
+15,,,,,,,,2A_9,5,9,War,,War
+16,,,,,,,,2A_10,56,10,Dance,,Dance
+17,,,,,,,,2A_11,4,11,"Merrymaking, e.g. games, gambling, drinking, and other amusements.",,Merry
+18,,,,,,,,2A_12,12,12,"Calendrical, e.g. Saint’s days, Christian holidays, etc.",,Calen
+19,,,,,,,,2A_13,5,13,Dramatic,,Drama
+20,,,,,,,,2A_14,6,14,"Royal-- songs sung in praise of royalty or in the royal court, etc. ",,Royal
+21,,,,,,,,2A_15,6,15,Self-delectative-- songs for self-amusement. ,,Selfd
+22,,,,,,,,2A_16,31,16,"For passive listening, e.g. ballads and other narrative genres.",,Passv
+23,,,,,,,,2A_30,66,30,"Narrative, e.g. ballads, epics, story songs. ",,Narr
+24,,,,,,,,2A_31,0,31,Songs from dreams or about dreams.,,Dream
+25,,,,,,,,2A_32,2,32,"Invocations of spirits, totem-animals, magical protection.",,Invoc
+26,,,,,,,,2A_33,1,33,"Songs about or to animals, including fish and insects. Also includes plants (can be totem).",,Animals
+27,,,,,,,,2A_34,0,34,Masculine-- songs about or pertaining to males when that is the main point. ,,Mascu
+28,,,,,,,,2A_35,0,35,Feminine-- songs about or pertaining to females when that is the main point. ,,Femin
+29,,,,,,,,2A_36,2,36,"Songs about features of landscape, geography, weather-- imagist songs, can be totem.",,Land
+30,,,,,,,,2A_37,2,37,"Songs for or about children, except lullabies.",,Child
+31,,,,,,,,2A_38,10,38,Lullabies ,,Lull
+32,,,,,,,,2A_39,1,39,"Hunting or fishing (work songs, or songs pertaining to these activities).",,Game
+33,,,,,,,,2A_40,2,40,"Agricultural (work songs, or songs pertaining to these activities).",,Agri
+34,,,,,,,,2A_41,2,41,"Gathering (work songs, or songs pertaining to these activities).",,Gathr
+35,,,,,,,,2A_42,0,42,"Pastoral (work songs, or songs pertaining to these activities).",,Pastr
+36,,,,,,,,2A_43,0,43,Greeting songs,,Greet
+37,,,,,,,,2A_44,20,44,"General praise songs, e.g. to God, oneself, or others.",,Prais
+38,,,,,,,,2A_45,1,45,"Work songs involving men with hammers or sledges, e.g. chain gangs, stone quarry miners. ",,Gang
+39,,,,,,,,2A_46,21,46,Love songs,,Love
+40,,,,,,,,2A_50,0,50,Singer engaged in some light activity.,,Lite act
+41,,,,,,,,2A_51,1,51,Singer engaged in some heavy activity.,,Hevy act
+42,,,,,,,,2A_52,0,52,"Other, third, or non-binary gender - songs about or pertaining to a third or nonbinary gender identity, when that is the main point.",,Other gender
+43,V2B,Function 2,Secondary function of the song in the context of its performance in the culture.,Function,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,2B_NA,670,NA,Missing data,,Missing data
+44,,,,,,,,2B_1,0,1,Ritual,,Ritl
+45,,,,,,,,2B_2,0,2,Curing,,Cure
+46,,,,,,,,2B_3,0,3,Initiation rites,,Ritin
+47,,,,,,,,2B_4,0,4,Courtship,,Court
+48,,,,,,,,2B_5,0,5,Marriage ceremonies,,Marry
+49,,,,,,,,2B_6,0,6,"Death, e.g. laments.",,Death
+50,,,,,,,,2B_7,0,7,"General work. Note that hunting, fishing, agricultural, gathering, pastoral are specifically defined elsewhere and should not be coded here.",,Work genl
+51,,,,,,,,2B_8,0,8,"Signalling, e.g. hollers.",,Signl
+52,,,,,,,,2B_9,0,9,War,,War
+53,,,,,,,,2B_10,0,10,Dance,,Dance
+54,,,,,,,,2B_11,0,11,"Merrymaking, e.g. games, gambling, drinking, and other amusements.",,Merry
+55,,,,,,,,2B_12,3,12,"Calendrical, e.g. Saint’s days, Christian holidays, etc.",,Calen
+56,,,,,,,,2B_13,0,13,Dramatic,,Drama
+57,,,,,,,,2B_14,0,14,"Royal-- songs sung in praise of royalty or in the royal court, etc. ",,Royal
+58,,,,,,,,2B_15,2,15,Self-delectative-- songs for self-amusement. ,,Selfd
+59,,,,,,,,2B_16,1,16,"For passive listening, e.g. ballads and other narrative genres.",,Passv
+60,,,,,,,,2B_30,1,30,"Narrative, e.g. ballads, epics, story songs. ",,Narr
+61,,,,,,,,2B_31,0,31,Songs from dreams or about dreams.,,Dream
+62,,,,,,,,2B_32,0,32,"Invocations of spirits, totem-animals, magical protection.",,Invoc
+63,,,,,,,,2B_33,4,33,"Songs about or to animals, including fish and insects. Also includes plants (can be totem).",,Animals
+64,,,,,,,,2B_34,0,34,Masculine-- songs about or pertaining to males when that is the main point. ,,Mascu
+65,,,,,,,,2B_35,0,35,Feminine-- songs about or pertaining to females when that is the main point. ,,Femin
+66,,,,,,,,2B_36,0,36,"Songs about features of landscape, geography, weather-- imagist songs, can be totem.",,Land
+67,,,,,,,,2B_37,0,37,"Songs for or about children, except lullabies.",,Child
+68,,,,,,,,2B_38,0,38,Lullabies ,,Lull
+69,,,,,,,,2B_39,0,39,"Hunting or fishing (work songs, or songs pertaining to these activities).",,Game
+70,,,,,,,,2B_40,0,40,"Agricultural (work songs, or songs pertaining to these activities).",,Agri
+71,,,,,,,,2B_41,0,41,"Gathering (work songs, or songs pertaining to these activities).",,Gathr
+72,,,,,,,,2B_42,0,42,"Pastoral (work songs, or songs pertaining to these activities).",,Pastr
+73,,,,,,,,2B_43,1,43,Greeting songs,,Greet
+74,,,,,,,,2B_44,1,44,"General praise songs, e.g. to God, oneself, or others.",,Prais
+75,,,,,,,,2B_45,0,45,"Work songs involving men with hammers or sledges, e.g. chain gangs, stone quarry miners. ",,Gang
+76,,,,,,,,2B_46,1,46,Love songs,,Love
+77,,,,,,,,2B_50,1,50,Singer engaged in some light activity.,,Lite act
+78,,,,,,,,2B_51,2,51,Singer engaged in some heavy activity.,,Hevy act
+79,,,,,,,,2B_52,0,52,"Other, third, or non-binary gender - songs about or pertaining to a third or nonbinary gender identity, when that is the main point.",,Other gender
+80,V2C,Function 3,Tertiary function of the song in the context of its performance in the culture.,Function,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,2C_NA,685,NA,Missing data,,Missing data
+81,,,,,,,,2C_1,0,1,Ritual,,Ritl
+82,,,,,,,,2C_2,0,2,Curing,,Cure
+83,,,,,,,,2C_3,0,3,Initiation rites,,Ritin
+84,,,,,,,,2C_4,0,4,Courtship,,Court
+85,,,,,,,,2C_5,0,5,Marriage ceremonies,,Marry
+86,,,,,,,,2C_6,0,6,"Death, e.g. laments.",,Death
+87,,,,,,,,2C_7,0,7,"General work. Note that hunting, fishing, agricultural, gathering, pastoral are specifically defined elsewhere and should not be coded here.",,Work genl
+88,,,,,,,,2C_8,0,8,"Signalling, e.g. hollers.",,Signl
+89,,,,,,,,2C_9,0,9,War,,War
+90,,,,,,,,2C_10,0,10,Dance,,Dance
+91,,,,,,,,2C_11,0,11,"Merrymaking, e.g. games, gambling, drinking, and other amusements.",,Merry
+92,,,,,,,,2C_12,0,12,"Calendrical, e.g. Saint’s days, Christian holidays, etc.",,Calen
+93,,,,,,,,2C_13,0,13,Dramatic,,Drama
+94,,,,,,,,2C_14,0,14,"Royal-- songs sung in praise of royalty or in the royal court, etc. ",,Royal
+95,,,,,,,,2C_15,1,15,Self-delectative-- songs for self-amusement. ,,Selfd
+96,,,,,,,,2C_16,0,16,"For passive listening, e.g. ballads and other narrative genres.",,Passv
+97,,,,,,,,2C_30,0,30,"Narrative, e.g. ballads, epics, story songs. ",,Narr
+98,,,,,,,,2C_31,0,31,Songs from dreams or about dreams.,,Dream
+99,,,,,,,,2C_32,0,32,"Invocations of spirits, totem-animals, magical protection.",,Invoc
+100,,,,,,,,2C_33,0,33,"Songs about or to animals, including fish and insects. Also includes plants (can be totem).",,Animals
+101,,,,,,,,2C_34,0,34,Masculine-- songs about or pertaining to males when that is the main point. ,,Mascu
+102,,,,,,,,2C_35,0,35,Feminine-- songs about or pertaining to females when that is the main point. ,,Femin
+103,,,,,,,,2C_36,0,36,"Songs about features of landscape, geography, weather-- imagist songs, can be totem.",,Land
+104,,,,,,,,2C_37,0,37,"Songs for or about children, except lullabies.",,Child
+105,,,,,,,,2C_38,0,38,Lullabies ,,Lull
+106,,,,,,,,2C_39,1,39,"Hunting or fishing (work songs, or songs pertaining to these activities).",,Game
+107,,,,,,,,2C_40,0,40,"Agricultural (work songs, or songs pertaining to these activities).",,Agri
+108,,,,,,,,2C_41,0,41,"Gathering (work songs, or songs pertaining to these activities).",,Gathr
+109,,,,,,,,2C_42,0,42,"Pastoral (work songs, or songs pertaining to these activities).",,Pastr
+110,,,,,,,,2C_43,0,43,Greeting songs,,Greet
+111,,,,,,,,2C_44,0,44,"General praise songs, e.g. to God, oneself, or others.",,Prais
+112,,,,,,,,2C_45,0,45,"Work songs involving men with hammers or sledges, e.g. chain gangs, stone quarry miners. ",,Gang
+113,,,,,,,,2C_46,0,46,Love songs,,Love
+114,,,,,,,,2C_50,0,50,Singer engaged in some light activity.,,Lite act
+115,,,,,,,,2C_51,0,51,Singer engaged in some heavy activity.,,Hevy act
+116,,,,,,,,2C_52,0,52,"Other, third, or non-binary gender - songs about or pertaining to a third or nonbinary gender identity, when that is the main point.",,Other gender
+117,V3,Organization of vocal group - A,The social organization of the vocal group. May be double or triple coded with V4 and V5.,Organization of the Vocal Group,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,3_NA,144,NA,Missing data,,Missing data
+118,,,,,,,,3_0,0,0,No singers.,,None
+119,,,,,,,,3_1,305,1,"One solo singer, whether accompanied by instruments or not.",,Solo
+120,,,,,,,,3_2,23,2,"One solo singer after another. Two or more singers alternate in singing a melody, or split the melody between them in some way. Only one singer is heard at a time.","- If two or more singers alternate in leading a chorus, 3_2 and the appropriate choral situation for V4.
+- If two singers both alternate and sing together, code 3_2 and 4_1 or 4_5.",Alternating soloists
+121,,,,,,,,3_3,36,3,All participants sing the same rhythm and the same text throughout the performance; there is no alternation of parts. A single predominant voice—a leader—stands out above the general effect of social unison. The leader's voice is usually louder and more forceful than the others. ,,Social Unison: Leader predominant
+122,,,,,,,,3_4,162,4,"All participants sing the same rhythm and the same text throughout the performance; there is no alternation of parts. No predominant lead voice is steadily heard over the social unison. Sometimes a leader can be heard briefly above the group at beginnings of sections, but as soon as the group joins in, the leader’s voice is submerged.",,Social Unison: Group predominant
+123,,,,,,,,3_5,0,5,An independent or variegated group performance that is rhythmically diffuse. In extreme cases the singers do not seem to be aware of one another at all.,"- If antiphony is combined with this kind of heterogeneous group activity, code 3_5 and either 4_1, 4_3, 4_4, or 4_5.
+- When uncertain if a performance is uncoordinated or highly coordinated, code both 3_5 and 4_6.",Diffuse/individualized group
+124,,,,,,,Same as 4_7 and 5_6,3_6,17,6,"One chorus continues to sing throughout a performance, and intermittently a second chorus enters and sings a contrasting melodic idea above the first.",,Superimposed
+125,V4,Organization of vocal group - B,The social organization of the vocal group. May be double or triple coded with V3 and V5.,Organization of the Vocal Group,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,4_NA,538,NA,Missing data,,Missing data
+126,,,,,,,,4_0,0,0,No singers.,,None
+127,,,,,,,,4_1,94,1,"All situations in which there is alternation between a solo voice and a chorus with a perceptible, if sometimes very slight, pause between the two parts. In all cases, the leader must sing at least one complete phrase or sub-phrase alone.","If there is occasional overlapping or if one part enters right on top of the “cutoff” of the other part, code both 4_1 and either 5_1 or 5_2.",Simple alternation: leader-group
+128,,,,,,,,4_2,10,2,"Alternation between two groups of two or more singers with a perceptible, if sometimes very slight, pause between the two parts.","If there is occasional overlapping or if one part enters right on top of the “cutoff” of the other part, code both 4_1 and 5_3.",Simple alternation: group-group
+129,,,,,,,Same as 5_1,4_3,15,3,"Alternation of leader and chorus, whose parts overlap so that one begins before the other ends. In extreme cases the chorus may also be heard backing the leader during his or her own part. However, the leader's part is still predominant over that of the group. The group's activity supports and contrasts with the leader's part.",,Overlapping alternation: leader-group
+130,,,,,,,Same as 5_3,4_4,9,4,"Alternation between two or more groups, whose parts overlap so that one begins before the other ends. In those rare cases where the groups are radically different in size (e.g., two singers versus twenty), this point is still coded, despite the fact that the smaller group may give the impression of leading the larger.",,Overlapping alternation: group-group
+131,,,,,,,Same as 5_2,4_5,8,5,"Alternation of leader and chorus, whose parts overlap so that one begins before the other ends. The group predominates rather than the leader. Although it may sometimes support the leader, the group is very active, and sings more than half of the time.",,Overlapping alternation: group-leader
+132,,,,,,,Same as 5_4,4_6,9,6,"A group in which several voices overlap in a rhythmically coordinated relationship. Often there is no clear leading part; all seem about equally important. Although some singers may be duplicating another part at the octave or in unison, the general impression is of a group of individuals, each with his or her own part, interacting in such a way as to create a homogeneous texture.","- When an individual voice can be heard in alternation with the rest of the group, code either 4_6 and 5_1 or 5_2, or 4_1 and 5_4.
+- When a situation is so complex that one cannot decide whether the singers are really coordinated or not, code both 3_5 and 4_6.",Interlock
+133,,,,,,,Same as 3_6 and 5_6,4_7,4,7,"One chorus continues to sing throughout a performance, and intermittently a second chorus enters and sings a contrasting melodic idea above the first.",,Superimposed
+134,V5,Organization of vocal group - C,"The social organization of the vocal group. All codes except 5_5 are repeats from V3 and V4, to allow for double or triple coding.",Organization of the Vocal Group,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,5_NA,583,NA,Missing data,,Missing data
+135,,,,,,,,5_0,0,0,No singers.,,None
+136,,,,,,,Same as 4_3,5_1,44,1,"Alternation of leader and chorus, whose parts overlap so that one begins before the other ends. In extreme cases the chorus may also be heard backing the leader during his or her own part. However, the leader's part is still predominant over that of the group. The group's activity supports and contrasts with the leader's part.",,Overlapping alternation: leader-group
+137,,,,,,,Same as 4_5,5_2,19,2,"Alternation of leader and chorus, whose parts overlap so that one begins before the other ends. The group predominates rather than the leader. Although it may sometimes support the leader, the group is very active, and sings more than half of the time.",,Overlapping alternation: group-leader
+138,,,,,,,Same as 4_4,5_3,16,3,"Alternation between two or more groups, whose parts overlap so that one begins before the other ends. In those rare cases where the groups are radically different in size (e.g., two singers versus twenty), this point is still coded, despite the fact that the smaller group may give the impression of leading the larger.",,Overlapping alternation: group-group
+139,,,,,,,Same as 4_6,5_4,0,4,"A group in which several voices overlap in a rhythmically coordinated relationship. Often there is no clear leading part; all seem about equally important. Although some singers may be duplicating another part at the octave or in unison, the general impression is of a group of individuals, each with his or her own part, interacting in such a way as to create a homogeneous texture.","- When an individual voice can be heard in alternation with the rest of the group, code either 4_6 and 5_1 or 5_2, or 4_1 and 5_4.
+- When a situation is so complex that one cannot decide whether the singers are really coordinated or not, code both 3_5 and 4_6.",Interlock
+140,,,,,,,,5_5,15,5,"Alternation between two or more solo singers, whose parts overlap so that one begins before the other ends.",,Overlapping alternation: leader-leader
+141,,,,,,,Same as 3_6 and 4_7,5_6,10,6,"One chorus continues to sing throughout a performance, and intermittently a second chorus enters and sings a contrasting melodic idea above the first.",,Superimposed
+142,V6,Modal length - Leader's units,"The modal (most common) length of the leader's units of phonation, measured in seconds.",Leader-Chorus Situations,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,6_NA,0,NA,Missing data,,Missing data
+143,,,,,,,,6_0,547,0,"The song is not performed by both a leader and a chorus. Instead, it is performed by one solo  singer or alternating soloists; a single group singing in unison or multiple groups alternating without a leader; an interlocking group.",,No Leader/Chorus
+144,,,,,,,,6_1,24,1,1 second,,1
+145,,,,,,,,6_2,40,2,2-3 seconds,,2-3
+146,,,,,,,,6_3,46,3,4-6 seconds,,4-6
+147,,,,,,,,6_4,15,4,7-9 seconds,,7-9
+148,,,,,,,,6_5,13,5,10-12 seconds,,10-12
+149,,,,,,,,6_6,2,6,13-20 seconds,,13-20
+150,,,,,,,,6_7,0,7,21 seconds or longer,,21 plus
+151,V7,Modal length - Chorus' units,"The modal (most common) length of the chorus' units of phonation, measured in seconds.",Leader-Chorus Situations,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,7_NA,0,NA,Missing data,,Missing data
+152,,,,,,,,7_0,549,0,"The song is not performed by both a leader and a chorus. Instead, it is performed by one solo  singer or alternating soloists; a single group singing in unison or multiple groups alternating without a leader; an interlocking group.",,No Leader/Chorus
+153,,,,,,,,7_1,18,1,1 second,,1
+154,,,,,,,,7_2,48,2,2-3 seconds,,2-3
+155,,,,,,,,7_3,37,3,4-6 seconds,,4-6
+156,,,,,,,,7_4,17,4,7-9 seconds,,7-9
+157,,,,,,,,7_5,9,5,10-12 seconds,,10-12
+158,,,,,,,,7_6,2,6,13-20 seconds,,13-20
+159,,,,,,,,7_7,7,7,21 seconds or longer,,21 plus
+160,V8,Leader's percentage of the total singing time,A rough estimate of the percentage of total singing time allocated to the leader in proportion to the chorus.,Leader-Chorus Situations,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,8_NA,0,NA,Missing data,,Missing data
+161,,,,,,,,8_0,548,0,The song is not performed by both a leader and a chorus.,,No Leader/Chorus
+162,,,,,,,,8_1,20,1,10 percent of the singing time allocated to the leader,,10%
+163,,,,,,,,8_2,12,2,25 percent of the singing time allocated to the leader,,25%
+164,,,,,,,,8_3,16,3,33 percent of the singing time allocated to the leader,,33%
+165,,,,,,,,8_4,14,4,45 percent of the singing time allocated to the leader,,45%
+166,,,,,,,,8_5,33,5,50 percent of the singing time allocated to the leader,,50%
+167,,,,,,,,8_6,20,6,55 percent of the singing time allocated to the leader,,55%
+168,,,,,,,,8_7,12,7,68 percent of the singing time allocated to the leader,,68%
+169,,,,,,,,8_8,9,8,75 percent of the singing time allocated to the leader,,75%
+170,,,,,,,,8_9,3,9,90 percent of the singing time allocated to the leader,,90%
+171,V9,Unit typology,A stylistic classification of song structure based on the organization of units of phonation and pauses.,Basic Unit Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,9_NA,0,NA,Missing data,,Missing data
+172,,,,,,,,9_1,441,1,Pauses are clearly audible.,,Clearly defined
+173,,,,,,,,9_2,85,2,"A succession of small units, each of a second or two duration, which are separated by “micro” pauses, perhaps of less than an eighth of a second in length.",,Micro-pause
+174,,,,,,,,9_3,4,3,A reiterated scheme of time values provide the underlying structural units of the song. These isorhythmic motives are often separated by micropauses.,,Isorhythm
+175,,,,,,,,9_4,32,4,"Pauses occur at different points within the successive repetitions of a melody. The breathless style, in which the singer or singers do not time their breathing with melodic breaks, but sing on until they gasp for air, is coded here.",,Pauses independent of melodic units
+176,,,,,,,,9_5,66,5,"The units of two or more soloists or groups overlap, which, in effect, obscures the pauses, as either one or the other component is performing at all times, with no interruption in the singing.",,Overlap
+177,,,,,,,,9_6,22,6,"The chorus repeats a litany in a very strict rhythm, with the effect that the length of the choral phrase and pause is always of the same duration. This choral litany is maintained regardless of the length of the leader’s phrase or timing, both of which may vary from verse to verse.",,Chorus regular
+178,,,,,,,,9_7,37,7,"Single members of the chorus fall out to breathe, then renew their singing, while others sing on, thus entirely obscuring the melodic pause markers.",,Overlapped breathing
+179,V10,Modal length,"The approximate length, in seconds, of most of the basic units of phonation. The basic unit lengths for all components (individual singers or groups of singers) are considered together.",Basic Unit Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",V10-V12 in the Basic Unit Analysis were left uncoded when pauses were too heavily obscured to determine the lengths of units of phonation,10_NA,23,NA,Missing data,,Missing data
+180,,,,,,,,10_1,177,1,1-3 seconds,,1-3 seconds
+181,,,,,,,,10_2,259,2,4-6 seconds,,4-6 seconds
+182,,,,,,,,10_3,127,3,7-9 seconds,,7-9 seconds
+183,,,,,,,,10_4,101,4,10 seconds or longer,,10 plus seconds
+184,V11,Range of unit lengths,"The range of lengths, in seconds, of the basic units of phonation. Calculated by subtracting the shortest unit length from the longest. The basic unit lengths for all components (individual singers or groups of singers) are considered.",Basic Unit Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",V10-V12 in the Basic Unit Analysis were left uncoded when pauses were too heavily obscured to determine the lengths of units of phonation,11_NA,27,NA,Missing data,,Missing data
+185,,,,,,,,11_1,159,1,Range of 0-2 seconds,,0-2
+186,,,,,,,,11_2,134,2,Range of 3 seconds,,3
+187,,,,,,,,11_3,80,3,Range of 4 seconds,,4
+188,,,,,,,,11_4,182,4,Range of 5-8 seconds,,5-8
+189,,,,,,,,11_5,105,5,Range of 9 or more seconds,,9 plus
+190,V12,Unit pattern,The degree to which the lengths of the units of phonation are organized in a pattern.,Basic Unit Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",V10-V12 in the Basic Unit Analysis were left uncoded when pauses were too heavily obscured to determine the lengths of units of phonation,12_NA,15,NA,Missing data,,Missing data
+191,,,,,,,,12_1,78,1,No perceptible organization of lengths whatsoever.,,No patterning
+192,,,,,,,,12_2,52,2,Some portion of the song contains a recurring succession unit lengths.,,Some patterning
+193,,,,,,,,12_3,108,3,"The majority of the song, but not the entire song, contains a recurring succession of unit lengths.",,Largely patterned
+194,,,,,,,,12_4,302,4,"The given component has a recurring succession of unit lengths for the entirety of the song, but not all units are the same length.",,Patterned
+195,,,,,,,,12_5,132,5,All units are the same length.,,Maximal
+196,V13,Other patterning,Types of variation in the length of units of phonation that might obscure patterning.,Basic Unit Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,13_NA,0,NA,Missing data,,Missing data
+197,,,,,,,,13_0,469,0,There are no variations in the length of units of phonation that might obscure patterning.,,No special patterning considerations
+198,,,,,,,,13_1,37,1,"Songs with regular units, all of essentially the same length, but with some variation produced by the prolongation at the end of units.",,"Regular, prolongation"
+199,,,,,,,,13_2,18,2,Two melodic units of each strophe have been sung by the performer without a separating pause.,,"Regular, 2 together"
+200,,,,,,,,13_3,31,3,"Melodic units are all the same length, regardless of pauses, and the pauses of the singer do not consistently correspond with the ends of the melodic phrases; sometimes there are pauses in the middle of phrases.",,"Regular unit, irregular pause"
+201,,,,,,,,13_4,3,4,"In the first section of the song, the units are of varying length, but in the second, they are regular.",,2nd half regular
+202,,,,,,,,13_5,46,5,"The patterning of unit lengths is proportioned in a mathematically significant manner, e.g. multiples of the shortest length and its derivatives (2, 4, 8, 16) or an arithmetic pattern (2, 4, 6, 8).",,Geometric or arithmetic progression of 2 or 3
+203,,,,,,,,13_6,83,6,"Melodic unit lengths are patterned, regardless of pauses, i.e. they recur in the same order, but are not all the same length. As in 13_3, the pauses of the singer do not consistently correspond with the ends of the melodic phrases; sometimes there are pauses in the middle of phrases.",,"Irregular pause, patterned unit"
+204,V14,"Irregular beginning, patterned units",Situations of initial irregularity in the unit lengths of a song with patterned or regular units of phonation.,Special Beginnings and Endings,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,14_NA,0,NA,Missing data,,Missing data
+205,,,,,,,,14_0,589,0,"Either the song's units are patterned and the beginning is not irregular, or the song is not patterned.",,No irregular beginning/Unpatterned
+206,,,,,,,,14_1,65,1,The first few units are slower by 1-3 seconds than the same material in the following repetitions.,,Slower by 1-3 seconds
+207,,,,,,,,14_2,25,2,"The melodic material in the first few units is the same as in the succeeding repetitions, but with the addition or subtraction of a unit.",,Addition or subtraction of units
+208,,,,,,,,14_3,8,3,The first few units are sung at a faster tempo than the rest of the units.,,Faster
+209,V15,Separate Introductions,"Situations of separate introductions, with contrastive melodic material not included in the repeated sections of the song, or the same melodic material but performed with an extreme contrast in tempo.",Special Beginnings and Endings,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,15_NA,0,NA,Missing data,,Missing data
+210,,,,,,,,15_0,625,0,The song does not have a separate introduction.,,No separate introduction
+211,,,,,,,,15_1,10,1,The introductory units are significantly shorter than those that follow in the repeated sections.,,Less than unit length
+212,,,,,,,See V11 for explanation of range,15_2,39,2,"The introductory units are not identical in length to those of the repeated sections, but are within the same range.",,Within range
+213,,,,,,,,15_3,13,3,The introductory units are significantly longer than those of the repeated sections.,,More than unit length
+214,V16,Terminal prolongation,"The amount of prolongation in seconds of the final tone of the song, if prolonged compared to the same unit in earlier phrases.",Special Beginnings and Endings,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,16_NA,0,NA,Missing data,,Missing data
+215,,,,,,,,16_0,557,0,"Absence of prolongation, or an incomplete sample, where the recording ends before the end of the song.",,None/incomplete
+216,,,,,,,,16_1,106,1,Final tone is 1-2 seconds longer than the same unit in earlier phrases.,,1-2 seconds
+217,,,,,,,,16_2,24,2,Final tone is 3-5 seconds longer than the same unit in earlier phrases.,,3-5 seconds
+218,V17,Sectional prolongation,"The amount of prolongation in seconds of the final tone of large repeated sections in the song, if prolonged compared to the same unit in earlier phrases.",Special Beginnings and Endings,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,17_NA,0,NA,Missing data,,Missing data
+219,,,,,,,,17_0,550,0,"Absence of prolongation, or an incomplete sample, where the recording ends before the end of the song.",,None/incomplete
+220,,,,,,,,17_1,112,1,Final tone is 1-2 seconds longer than the same unit in earlier phrases.,,1-2 seconds
+221,,,,,,,,17_2,25,2,Final tone is 3-5 seconds longer than the same unit in earlier phrases.,,3-5 seconds
+222,V18,Coda,"Situations of separate codas, with contrastive melodic material not included in the body of the song, or the same melodic material but performed with an extreme contrast in tempo.",Special Beginnings and Endings,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,18_NA,0,NA,Missing data,,Missing data
+223,,,,,,,,18_0,590,0,The song does not have a coda.,,No coda
+224,,,,,,,,18_1,20,1,The units in the coda are significantly shorter than those that preceded in the body of the song.,,Less than unit length
+225,,,,,,,See V11 for explanation of range,18_2,68,2,"The coda's units are not identical in length to those of the repeated sections in the body of the song, but are within the same range.",,Within range
+226,,,,,,,,18_3,9,3,The coda's units are significantly longer than those of the repeated sections in the body of the song.,,More than unit length
+227,V19,Orchestral Accompaniment,"The presence of orchestral accompaniment, and whether it includes as featured instrument.",Pause Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,19_NA,4,NA,Missing data,,Missing data
+228,,,,,,,,19_1,330,1,There is no orchestral accompaniment.,,No orchestra
+229,,,,,,,,19_2,285,2,There is orchestral accompaniment.,,Orchestra
+230,,,,,,,,19_3,68,3,"The orchestral accompaniment includes a “featured instrument,"" usually but not necessarily a melodic instrument that either imitates the sung melody, plays its own melody in the pauses between singing, or is otherwise set apart from the other components of the song (through louder volume, for instance). ",,Orchestra with featured instrument
+231,V20,Presence of featured instrument,The presence or absence of a featured instrument.,Pause Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,20_NA,0,NA,Missing data,,Missing data
+232,,,,,,,,20_1,613,1,There is no featured instrument.,,Absence
+233,,,,,,,,20_2,74,2,There is a featured instrument.,,Presence
+234,V21,Alternate lead,The presence or absence of a second featured instrument.,Pause Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,21_NA,2,NA,Missing data,,Missing data
+235,,,,,,,,21_1,671,1,There is not an additional featured instrument.,,Absence
+236,,,,,,,,21_2,14,2,There is an additional featured instrument.,,Presence
+237,V22,Does this instrument play the melody?,Whether the featured instrument plays the same melody as is sung by the singer.,Pause Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,22_NA,5,NA,Missing data,,Missing data
+238,,,,,,,,22_0,612,0,There is no featured instrument.,,No featured instrument
+239,,,,,,,,22_1,54,1,The featured instrument plays the sung melody.,,Yes
+240,,,,,,,,22_2,16,2,The featured instrument does not play the sung melody.,,No
+241,V23,Modal pauses,"The modal or most common length of pauses in the song, measured in seconds.",Pause Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,23_NA,25,NA,Missing data,,Missing data
+242,,,,,,,,23_0,74,0,No audible pauses,,No audible pauses
+243,,,,,,,,23_1,484,1,Less than 1 second,,<1
+244,,,,,,,,23_2,64,2,1 second,,1
+245,,,,,,,,23_3,35,3,2-4 seconds,,2-4
+246,,,,,,,,23_4,5,4,5 seconds or longer,,5 plus
+247,V24,Pause structure,"A comparison between the length of the pauses between the largest repeated sections of the song, and the length of the melodic levels (groupings of units into larger units of melodic structure).",Pause Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",V24 and V25 were left uncoded when overlapping choral styles or other techniques obscured the pauses between phonation.,24_NA,243,NA,Missing data,,Missing data
+248,,,,,,,,24_1,349,1,The pauses between the largest repeated sections are shorter than the modal unit.,,Less than level 1
+249,,,,,,,,24_2,75,2,The pauses between the largest repeated sections are the same length as the modal unit.,,Equal to level 1
+250,,,,,,,,24_3,9,3,The pauses between the largest repeated sections are longer than the modal unit or equal to the second level unit.,,"Greater than level 1, equal to level 2"
+251,,,,,,,,24_4,11,4,The lengths of pauses between the largest repeated sections are between the length of the second level unit and the fourth level unit.,,"Greater than level 2, equal to level 4"
+252,,,,,,,,24_5,0,5,The pauses between the largest repeated sections are longer than the highest unit level.,,Greater than highest level
+253,V25,Modal pause length between larger sections,"The modal or most common length of pauses between the largest repeated sections in the song, measured in seconds.",Pause Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",V24 and V25 were left uncoded when overlapping choral styles or other techniques obscured the pauses between phonation.,25_NA,233,NA,Missing data,,Missing data
+254,,,,,,,,25_1,319,1,Less than or equal to 1 second,,Less than or equal to 1
+255,,,,,,,,25_2,107,2,2-15 seconds,,2-15
+256,,,,,,,,25_3,28,3,15 seconds or longer,,15 plus
+257,V26,Number of levels,"The number of melodic levels in the song, based on grouping repeated sequences of units into larger sections.",Levels of Melodic and Unit Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,26_NA,3,NA,Missing data,,Missing data
+258,,,,,,,,26_1,172,1,1 level,,1
+259,,,,,,,,26_2,278,2,2 levels,,2
+260,,,,,,,,26_3,215,3,3 levels,,3
+261,,,,,,,,26_4,19,4,4 levels,,4
+262,,,,,,,,26_5,0,5,5 levels,,5
+263,V27,Number of levels regular,The number of levels in which all the units are the same length.,Levels of Melodic and Unit Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,27_NA,0,NA,Missing data,,Missing data
+264,,,,,,,,27_0,229,0,No regular levels,,0
+265,,,,,,,,27_1,369,1,1 regular level,,1
+266,,,,,,,,27_2,69,2,2 regular levels,,2
+267,,,,,,,,27_3,18,3,3 regular levels,,3
+268,,,,,,,,27_4,2,4,4 regular levels,,4
+269,,,,,,,,27_5,0,5,5 regular levels,,5
+270,V28,% Melody repeated,The proportion of the song's melody that is repeated.,Repetition Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,28_NA,5,NA,Missing data,,Missing data
+271,,,,,,,,28_1,38,1,"Songs that have no repetition, not even motivic repetition; songs with some motivic repetition; songs with motivic repetition and maybe a few phrases that are repeated once, but no patterning of repetition; songs where phrases are partially repeated, with either motivic or melodic variation, and not in a predictable sequence.",, 0-50%
+272,,,,,,,,28_2,33,2,Repeated sections are partially established. There is variation within the phrases or in the combination of phrases.,,66%
+273,,,,,,,,28_3,101,3,"Repeated sections clearly defined, but variation within phrases.",,75%
+274,,,,,,,,28_4,459,4,"There is slight variation in the melodic phrases, which are organized into repeated sections.",,90%
+275,,,,,,,,28_5,51,5,"There is no variation in the melodic phrases, which are organized into repeated sections.",,All
+276,,,,,,,,28_6,0,6,"There are multiple sections in the song where a single phrase or motif is repeated. Each section consists of the repetition of its own melodic material, but the sequence of sections is not necessarily repeated.",,Sectional
+277,V29,Number of units in largest repeated section,The number of basic units of phonation in the largest repeated section of the song.,Repetition Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,29_NA,42,NA,Missing data,,Missing data
+278,,,,,,,,29_1,147,1,1 unit,,1
+279,,,,,,,,29_2,130,2,2 units,,2
+280,,,,,,,,29_3,79,3,3 units,,3
+281,,,,,,,,29_4,96,4,4 units,,4
+282,,,,,,,,29_5,104,5,5-6 units,,5-6
+283,,,,,,,,29_6,37,6,7-8 units,,7-8
+284,,,,,,,,29_7,42,7,9-20 units,,9-20
+285,,,,,,,,29_8,9,8,11-45 units,,11-45
+286,,,,,,,,29_9,1,9,45 units or more,,45 plus
+287,V30,Length of repeated section,"The most frequently occuring length of the repeated sections of the song, measured in seconds.",Repetition Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,30_NA,37,NA,Missing data,,Missing data
+288,,,,,,,,30_1,174,1,0-10 seconds,,0-10
+289,,,,,,,,30_2,217,2,11-20 seconds,,11-20
+290,,,,,,,,30_3,204,3,21-40 seconds,,21-40
+291,,,,,,,,30_4,55,4,40 seconds or longer,,40 plus
+292,V31,Range of repeated section,"The range of lengths, in seconds, of the repeated sections of the song. Calculated by subtracting the shortest section length from the longest.",Repetition Analysis,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)","In the original sample, V31 was left uncoded if the repeated sections were of regular lengths. The new coding rules don't stipulate this.",31_NA,242,NA,Missing data,,Missing data
+293,,,,,,,,31_1,388,1,0-10 seconds,,0-10
+294,,,,,,,,31_2,46,2,11-20 seconds,,11-20
+295,,,,,,,,31_3,11,3,21-40 seconds,,21-40
+296,,,,,,,,31_4,0,4,40 seconds or longer,,40 plus
+297,V32,Amount of variation,The amount and type of variation that occurs in the repeated sections of the song.,Repetition Analysis,Categorical,"Mullin, Lomax, et al. (1966-72); Wood (2021)",,32_NA,7,NA,Missing data,,Missing data
+298,,,,,,,,32_1,319,1,There is no variation within the repeated sections.,,None
+299,,,,,,,,32_2,71,2,There are obvious tempo changes within the repeated sections.,,Obvious internal
+300,,,,,,,,32_3,26,3,The only variation in the repeated sections is a few easily perceived pitch alterations.,,Obvious tonal
+301,,,,,,,,32_4,94,4,There is a great deal of internal variation within the repeated sections not easily characterized.,,"Subtle internal, tonal"
+302,,,,,,,,32_5,90,5,There are obvious additions or subtractions of melodic units in the repeated sections.,,Obvious addition or subtraction of units
+303,,,,,,,,32_6,41,6,"There is subtle variation in the repeated sections that can be categorized as an addition or subtraction of units, or subtle internal variation combined with an addition or subtraction of units.",,Subtle addition or subtraction of units
+304,,,,,,,,32_7,39,7,There is periodic insertion of new melodic material into the repeated sections.,,Melodic
+305,V33,Important melodic unit length,"The modal or most common length, in seconds, of the important melodic units of the song (different from the basic units of phonation because defined by melodic criteria rather than pause markers).",Melodic Units,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",V33 and V34 concerning Melodic Units were only coded when necessary to supplement missing information in the Basic Unit Analysis and Pause Analysis (i.e. when pauses were obscured so melodic units were measured rather than units of phonation between pauses).,33_NA,511,NA,Missing data,,Missing data
+306,,,,,,,,33_1,34,1,1-3 seconds,,1-3
+307,,,,,,,,33_2,79,2,4-6 seconds,,4-6
+308,,,,,,,,33_3,35,3,7-9 seconds,,7-9
+309,,,,,,,,33_4,28,4,10 seconds or longer,,10 plus
+310,V34,Range of melodic units,"The range of lengths, in seconds, of the important melodic units of the song. Calculated by subtracting the shortest melodic unit length from the longest.",Melodic Units,Ordinal,"Mullin, Lomax, et al. (1966-72); Wood (2021)",V33 and V34 concerning Melodic Units were only coded when necessary to supplement missing information in the Basic Unit Analysis and Pause Analysis (i.e. when pauses were obscured so melodic units were measured rather than units of phonation between pauses).,34_NA,518,NA,Missing data,,Missing data
+311,,,,,,,,34_1,134,1,1-3 seconds,,1-3
+312,,,,,,,,34_2,25,2,4-6 seconds,,4-6
+313,,,,,,,,34_3,3,3,7-9 seconds,,7-9
+314,,,,,,,,34_4,7,4,10 seconds or longer,,10 plus
