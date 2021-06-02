@@ -78,4 +78,16 @@ def main():
     society_df.to_csv('raw/societies.csv', index=False)
     print("successful")
 
+    # Codings information
+    print("Downloading codings sheet into codings.csv")
+    SPREADSHEET_ID = '1pJI-ZYKbVzU01mW4UJjiBJaBpUrxidRg9pDHp9MrM9I'
+    RANGE_NAME = "'Sheet1'!A2:N315"
+    HEADER_RANGE = "'Sheet1'!A1:N1"
+    data, header = read_google_sheets(SPREADSHEET_ID, RANGE_NAME, HEADER_RANGE)
+    society_df = pd.DataFrame(data, columns = header[0])
+    # keep_columns = variable_metadata.loc[(variable_metadata["table"] == "societies") & (variable_metadata["visibility"] == "public")]
+    # society_df = society_df.filter(items = keep_columns["name"])
+    society_df.to_csv('raw/codings.csv', index=False)
+    print("successful")
+
 main()
