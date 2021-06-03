@@ -1,8 +1,12 @@
 # Minutage Data
 
-The Minutage dataset contains information on the phrasing and breath patterns in a global sample of songs. 
+Minutage is a dataset forming part of [The Global Jukebox](https://theglobaljukebox.org/#). 
+For full details including detailed description of the datasets and how to use and interpret them, see:
 
-This repository is for pulling, formatting, validating and cleaning the Minutage dataset.
+Wood, A. L. C., Kirby, K. R., Ember, C. R., Silbert, S., Daikoku, H., McBride, J., Passmore, S., Paulay, F., Flory, M., Szinger, J., D’Arcangelo, G., Guarino, M., Atayeva, M., Rifkin, J., Baron, V., El Hajli, M., Szinger, M., & Savage, P. E. (2021). The Global Jukebox: A public database of performing arts and culture. PsyArXiv preprint. https://doi.org/10.31234/osf.io/4z97j
+
+
+This repository is for pulling, formatting, validating and cleaning the minutage dataset.
 
 Data is presented in three data tables within raw/
 
@@ -11,17 +15,21 @@ Data is presented in three data tables within raw/
 | data.csv      | Codings of the phrasing and breath patterns in each song |
 | phrasing.csv  | Metadata on each song file                               |
 | societies.csv | Metadata on the societies from which the songs originate |
+| codings.csv   | Metadata on the codings used in data.csv				   |
 
 
-## Getting started
+## How to cite the Global Jukebox
 
-To see the list of available commands and scripts type into your terminal:
+Research that uses data from the Global Jukebox should cite both the original source(s) of the data and this paper (e.g., research using data from the Cantometrics dataset: “Lomax (1968); Wood et al. (2021)”). The reference list should include the date that data were accessed and URL for the Global Jukebox (http://theglobaljukebox.org), in addition to the full reference for Lomax (1968). Additionally, Cantometrics is versioned and stored on Zenodo. Users can cite the specific dataset and version used by visiting [zenodo website].
 
-`make help`
+## Versions
 
-<small><strong>Note:</strong> This code has been tested for Mac/Windows, but if you are on a windows, please submit a pull request so we can make it easier to run. This step assumes you have a working distribution of `make`. For installation instructions please update XCode or follow the specific guidelines for installing `make` on your system. </small>
+See the [list of releases](https://github.com/theglobaljukebox/minutage/releases) for available released versions of Minutage data.
 
-## Collect google drive data
+## Acknowledgements
 
-`make download`
+The Global Jukebox would not exist without the extensive recordings collected throughout the world by Alan Lomax; we would like to acknowledge his years of work by  and the enormous contributions made by other scholars in the field towards maintaining and updating the data.
 
+## Funding 
+
+The Global Jukebox has been developed with support from the National Endowment for the Arts, the National Endowment for the Humanities, the Concordia Foundation, the Rock Foundation, and Odyssey Productions.
