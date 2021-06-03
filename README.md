@@ -1,5 +1,9 @@
 # Minutage Data
 
+
+[![DOI](https://zenodo.org/badge/343250326.svg)](https://zenodo.org/badge/latestdoi/343250326)
+
+
 Minutage is a dataset forming part of [The Global Jukebox](https://theglobaljukebox.org/#). 
 For full details including detailed description of the datasets and how to use and interpret them, see:
 
