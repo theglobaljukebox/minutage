@@ -37,3 +37,14 @@ The Global Jukebox would not exist without the extensive recordings collected th
 ## Funding 
 
 The Global Jukebox has been developed with support from the National Endowment for the Arts, the National Endowment for the Humanities, the Concordia Foundation, the Rock Foundation, and Odyssey Productions.
+
+## Updating
+
+To update the data held in this repository you must have access to the central Google Drive folders held by Cultural Equity. If you do not have access to these files please contact Anna LC Wood or Stella Silbert. 
+
+If you do have access to these files, the repository can be updated using the following steps:
+
+1. Clone the repository to your local machine. This can be done by copying the url from the green box labelled "Code" on the top of this page and typing `git clone <url>` into the terminal
+2. Within the cloned repository, type `make download` to initiate the download of files from Google Drive. This step may ask you to confirm your access credentials to the data stored on Google Drive.  The result of this step is an updated local version of the dataset.
+3. If there are significant changes, we reccomend to create a new git branch. To do this type `git branch <your name for the branch>` into the terminal, replacing the text within <> with a descriptive name reflecting the changes. Then type `git checkout <your name for the branch>`. Finally, type `git commit -am 'a descriptive message of the changes'` followed by `git push`. If this is the first time you are commiting a change, git may ask you to type a different command that willbe displayed in the terminal. 
+4. If changes are minor, then you need only use `git commit -am 'a descriptive message'` followed by `git push`. 
